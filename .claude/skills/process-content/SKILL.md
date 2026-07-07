@@ -1,6 +1,6 @@
 ---
 name: process-content
-description: Process new artwork photos the user dropped into the content/ folder of the sotiriadromou.gr gallery — auto-rotate, dedupe, resize/compress, decide title/category/tags/story by looking at each image, add them to data/artworks.js, and preview. Use whenever the user says they added/put images in content/, or asks to import/process new artworks for this gallery.
+description: Process new artwork photos the user dropped into the content/ folder of the sotyriadromou.gr gallery — auto-rotate, dedupe, resize/compress, decide title/category/tags/story by looking at each image, add them to data/artworks.js, and preview. Use whenever the user says they added/put images in content/, or asks to import/process new artworks for this gallery.
 ---
 
 # Process new gallery content

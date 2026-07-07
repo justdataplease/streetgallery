@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-process.py — image pipeline for the sotiriadromou.gr gallery.
+process.py — image pipeline for the sotyriadromou.gr gallery.
 
 Two subcommands:
 
