@@ -19,7 +19,7 @@
   }
 
   var art = ARTWORKS[index];
-  document.title = art.title + " — Σοφία Δημητροπούλου";
+  document.title = art.title + " — Sotyria Dromou";
 
   var fig = document.createElement("figure");
   fig.className = "artwork-figure";

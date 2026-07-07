@@ -1,4 +1,4 @@
-# sotiriadromou.gr — Σοφία Δημητροπούλου, Ζωγραφική & Γλυπτική
+# Sotyriadromou.gr — Sotyria Dromou, Ζωγραφική & Γλυπτική
 
 Στατική ιστοσελίδα-πορτφόλιο. **Χωρίς build, χωρίς εξαρτήσεις** — σκέτο HTML/CSS/JS,
 έτοιμη για GitHub Pages. Για τοπική προεπισκόπηση αρκεί να ανοίξετε το `index.html`
@@ -13,7 +13,7 @@ about.html          Βιογραφικό & επικοινωνία
 data/artworks.js    ⭐ ΟΛΟ το περιεχόμενο είναι εδώ (ένα μπλοκ ανά έργο)
 images/erga/        Οι φωτογραφίες των έργων (βελτιστοποιημένες για web)
 content/            Πρωτότυπες φωτογραφίες (ΔΕΝ ανεβαίνουν — είναι στο .gitignore)
-CNAME               Το custom domain (sotiriadromou.gr)
+CNAME               Το custom domain (Sotyriadromou.gr)
 ```
 
 ## ➕ Πώς προσθέτω νέο έργο (2 βήματα)
@@ -49,16 +49,16 @@ CNAME               Το custom domain (sotiriadromou.gr)
 
 ## 🚀 Πρώτο ανέβασμα στο GitHub Pages
 
-1. Δημιουργήστε ένα repository στο GitHub (π.χ. `sotiriadromou.gr`).
+1. Δημιουργήστε ένα repository στο GitHub (π.χ. `Sotyriadromou.gr`).
 2. Από αυτόν τον φάκελο:
    ```
    git remote add origin https://github.com/<USERNAME>/<REPO>.git
    git push -u origin main
    ```
 3. Στο GitHub: **Settings → Pages → Source: Deploy from a branch → Branch: `main` / (root)**.
-4. **Domain:** Στο ίδιο σημείο δηλώστε custom domain `sotiriadromou.gr` (το αρχείο
+4. **Domain:** Στο ίδιο σημείο δηλώστε custom domain `Sotyriadromou.gr` (το αρχείο
    `CNAME` υπάρχει ήδη). Στον DNS provider του domain προσθέστε:
-   - `A` records για το apex (`sotiriadromou.gr`) → `185.199.108.153`,
+   - `A` records για το apex (`Sotyriadromou.gr`) → `185.199.108.153`,
      `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
    - προαιρετικά `CNAME` για το `www` → `<USERNAME>.github.io`
 5. Ενεργοποιήστε το **Enforce HTTPS** μόλις εκδοθεί το πιστοποιητικό.
